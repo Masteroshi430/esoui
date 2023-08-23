@@ -23342,7 +23342,7 @@ h2. Events
 * EVENT_POI_DISCOVERED (*luaindex* _zoneIndex_, *luaindex* _poiIndex_)
 * EVENT_POI_UPDATED (*luaindex* _zoneIndex_, *luaindex* _poiIndex_)
 * EVENT_POWER_UPDATE (*string* _unitTag_, *luaindex* _powerIndex_, *[CombatMechanicFlags|#CombatMechanicFlags]* _powerType_, *integer* _powerValue_, *integer* _powerMax_, *integer* _powerEffectiveMax_)
-* EVENT_PVP_KILL_FEED_DEATH (*string* _killLocation_, *string* _killerPlayerCharacterName_, *string* _killerPlayerDisplayName_, *[Alliance|#Alliance]* _killerPlayerAlliance_, *integer* _killerPlayerRank_, *string* _victimPlayerCharacterName_, *string* _victimPlayerDisplayName_, *[Alliance|#Alliance]* _victimPlayerAlliance_, *integer* _victimPlayerRank_)
+* EVENT_PVP_KILL_FEED_DEATH (*string* _killLocation_, *string* _killerPlayerDisplayName_, *string* _killerPlayerCharacterName_, *[Alliance|#Alliance]* _killerPlayerAlliance_, *integer* _killerPlayerRank_, *string* _victimPlayerDisplayName_, *string* _victimPlayerCharacterName_, *[Alliance|#Alliance]* _victimPlayerAlliance_, *integer* _victimPlayerRank_)
 * EVENT_QUEST_ADDED (*luaindex* _journalIndex_, *string* _questName_, *string* _objectiveName_)
 * EVENT_QUEST_ADVANCED (*luaindex* _journalIndex_, *string* _questName_, *bool* _isPushed_, *bool* _isComplete_, *bool* _mainStepChanged_)
 * EVENT_QUEST_COMPLETE (*string* _questName_, *integer* _level_, *integer* _previousExperience_, *integer* _currentExperience_, *integer* _championPoints_, *[QuestType|#QuestType]* _questType_, *[InstanceDisplayType|#InstanceDisplayType]* _instanceDisplayType_)
